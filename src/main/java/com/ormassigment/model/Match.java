@@ -1,3 +1,4 @@
+/*
 package com.ormassigment.model;
 
 import lombok.Getter;
@@ -7,9 +8,11 @@ import lombok.Setter;
 import javax.persistence.*;
 
 @Entity
-@Setter
+*/
+/*@Setter
 @Getter
-@NoArgsConstructor
+@NoArgsConstructor*//*
+
 public class Match {
 
     @Id
@@ -26,3 +29,4 @@ public class Match {
     private int goalsHome;
     private int goalsAway;
 }
+*/

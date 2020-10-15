@@ -1,3 +1,4 @@
+/*
 package com.ormassigment.model;
 
 import lombok.Getter;
@@ -10,9 +11,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-@Getter
+*/
+/*@Getter
 @Setter
-@NoArgsConstructor
+@NoArgsConstructor*//*
+
 public class Team {
 
     @Id
@@ -23,3 +26,4 @@ public class Team {
     private String country;
     private String city;
 }
+*/
