@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Quests store</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" href="../static/css/style.css" type="text/css"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0m mininum-scale=1.0">
+</head>
+<body>
+<div>
+    <ol>
+        <li th:each="bean: ${teams}">
+            <div th:text="${bean.className}" ></div>
+
+            <ul th:each="property: ${bean.properties}">
+                <li th:text="${property.val}" />
+            </ul>
+        </li>
+    </ol>
+</div>
+</body>
+</html>
